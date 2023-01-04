@@ -1,0 +1,31 @@
+1: intx;
+2: inty;
+3: input x; (symbol0)
+4: y=0
+5: if symbol0==1 {
+6: y=6
+7: if symbol0<3 {
+8: y=5
+} //7
+9: else { 
+10: y=-5
+} //9
+} //5
+11: else { 
+12: y=0
+} //11
+
+Path N1: 
+symbol0<3
+symbol0==1
+main
+
+Path N2: 
+!(symbol0<3)
+symbol0==1
+main
+
+Path N3: 
+!(symbol0==1)
+main
+

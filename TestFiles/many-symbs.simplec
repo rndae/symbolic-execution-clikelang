@@ -1,0 +1,15 @@
+main() {
+  int x;
+  int y;
+  int z;
+  int q;
+  input x;
+  input y;
+  input z;
+  q = 0;
+  if (x == 1) {
+    q = y * z;
+  } else {
+    q = x - y;
+  }
+}

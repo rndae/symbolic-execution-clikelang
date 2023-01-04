@@ -1,0 +1,16 @@
+main() {
+  int x;
+  int y;
+  input x;
+  y = 0;
+  if(x==1) {
+    y = 6;
+    if(x<3){
+      y = 5;
+    } else{
+      y = -5;
+    }
+  } else {
+    y = 0;
+  }
+}

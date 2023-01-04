@@ -1,0 +1,29 @@
+1: intx;
+2: inty;
+3: intz;
+4: inta;
+5: intb;
+6: input x; (symbol0)
+7: input y; (symbol1)
+8: input z; (symbol2)
+9: a=0
+10: if symbol0==1 {
+11: a=symbol1*symbol2
+} //10
+12: else { 
+13: a=symbol0-symbol1
+14: x=3
+15: z=3+2
+16: b=3+2+1
+} //12
+17: a=symbol0+symbol2
+
+Path N1: 
+symbol0==1
+main
+
+Path N2: 
+!(symbol0==1)
+main
+
+

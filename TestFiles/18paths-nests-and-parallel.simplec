@@ -1,0 +1,39 @@
+main() {
+  int x;
+  int y;
+  int z;
+  int o;
+  int p;
+  int q;
+  input x;
+  input y;
+  input z;
+  o = 0;
+  p = 0;
+  q = 0;
+  if (x == 1) {
+    o = -2;
+  } else {
+    o = 0;
+  }
+  if (y < 5) {
+    if (x == z) {
+      p = 1;
+    } else {
+      p = 0;
+    }
+    q = 2;
+  } else {
+    q = 1;
+  }
+  if (x > 0) {
+    p = 1;
+    if (y > x) {
+     q = 0;
+    } else {
+     q = -1;
+    }
+  } else {
+    p = 5621;
+  }
+}

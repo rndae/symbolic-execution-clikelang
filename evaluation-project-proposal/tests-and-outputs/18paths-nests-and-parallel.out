@@ -1,0 +1,176 @@
+1: intx;
+2: inty;
+3: intz;
+4: into;
+5: intp;
+6: intq;
+7: input x; (symbol0)
+8: input y; (symbol1)
+9: input z; (symbol2)
+10: o=0
+11: p=0
+12: q=0
+13: if symbol0==1 {
+14: o=-2
+} //13
+15: else { 
+16: o=0
+} //15
+17: if symbol1<5 {
+18: if symbol0==symbol2 {
+19: p=1
+} //18
+20: else { 
+21: p=0
+} //20
+22: q=2
+} //17
+23: else { 
+24: q=1
+} //23
+25: if symbol0>0 {
+26: p=1
+27: if symbol1>symbol0 {
+28: q=0
+} //27
+29: else { 
+30: q=-1
+} //29
+} //25
+31: else { 
+32: p=5621
+} //31
+
+Path N1: 
+symbol1>symbol0
+symbol0>0
+symbol0==symbol2
+symbol1<5
+symbol0==1
+main
+
+Path N2: 
+!(symbol1>symbol0)
+symbol0>0
+symbol0==symbol2
+symbol1<5
+symbol0==1
+main
+
+Path N3: 
+!(symbol0>0)
+symbol0==symbol2
+symbol1<5
+symbol0==1
+main
+
+Path N4: 
+symbol1>symbol0
+symbol0>0
+!(symbol0==symbol2)
+symbol1<5
+symbol0==1
+main
+
+Path N5: 
+!(symbol1>symbol0)
+symbol0>0
+!(symbol0==symbol2)
+symbol1<5
+symbol0==1
+main
+
+Path N6: 
+!(symbol0>0)
+!(symbol0==symbol2)
+symbol1<5
+symbol0==1
+main
+
+Path N7: 
+symbol1>symbol0
+symbol0>0
+!(symbol1<5)
+symbol0==1
+main
+
+Path N8: 
+!(symbol1>symbol0)
+symbol0>0
+!(symbol1<5)
+symbol0==1
+main
+
+Path N9: 
+!(symbol0>0)
+!(symbol1<5)
+symbol0==1
+main
+
+Path N10: 
+symbol1>symbol0
+symbol0>0
+symbol0==symbol2
+symbol1<5
+!(symbol0==1)
+main
+
+Path N11: 
+!(symbol1>symbol0)
+symbol0>0
+symbol0==symbol2
+symbol1<5
+!(symbol0==1)
+main
+
+Path N12: 
+!(symbol0>0)
+symbol0==symbol2
+symbol1<5
+!(symbol0==1)
+main
+
+Path N13: 
+symbol1>symbol0
+symbol0>0
+!(symbol0==symbol2)
+symbol1<5
+!(symbol0==1)
+main
+
+Path N14: 
+!(symbol1>symbol0)
+symbol0>0
+!(symbol0==symbol2)
+symbol1<5
+!(symbol0==1)
+main
+
+Path N15: 
+!(symbol0>0)
+!(symbol0==symbol2)
+symbol1<5
+!(symbol0==1)
+main
+
+Path N16: 
+symbol1>symbol0
+symbol0>0
+!(symbol1<5)
+!(symbol0==1)
+main
+
+Path N17: 
+!(symbol1>symbol0)
+symbol0>0
+!(symbol1<5)
+!(symbol0==1)
+main
+
+Path N18: 
+!(symbol0>0)
+!(symbol1<5)
+!(symbol0==1)
+main
+
+

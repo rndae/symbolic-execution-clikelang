@@ -1,0 +1,66 @@
+1: intx;
+2: inty;
+3: intz;
+4: into;
+5: intp;
+6: intq;
+7: input x; (symbol0)
+8: input y; (symbol1)
+9: input z; (symbol2)
+10: o=0
+11: p=0
+12: q=0
+13: if symbol0==1 {
+14: o=-2
+} //13
+15: else { 
+16: o=0
+} //15
+17: if symbol1<5 {
+18: if symbol0==symbol2 {
+19: p=1
+} //18
+20: else { 
+21: p=0
+} //20
+22: q=2
+} //17
+23: else { 
+24: q=1
+} //23
+
+Path N1: 
+symbol0==symbol2
+symbol1<5
+symbol0==1
+main
+
+Path N2: 
+!(symbol0==symbol2)
+symbol1<5
+symbol0==1
+main
+
+Path N3: 
+!(symbol1<5)
+symbol0==1
+main
+
+Path N4: 
+symbol0==symbol2
+symbol1<5
+!(symbol0==1)
+main
+
+Path N5: 
+!(symbol0==symbol2)
+symbol1<5
+!(symbol0==1)
+main
+
+Path N6: 
+!(symbol1<5)
+!(symbol0==1)
+main
+
+
